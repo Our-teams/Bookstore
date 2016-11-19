@@ -5,6 +5,13 @@ app.config([
 			
 		}).when('/reading',{
 			templateUrl:'pages/reading/reading.html',
+			controller:'readCtrl'
+		}).when('/note',{
+			templateUrl:'pages/note/note.html',
+			controller:'noteCtrl'
+		}).when('/read2',{
+			templateUrl:'pages/read2/read2.html',
+			controller:'read2Ctrl'
 		})
 	}
 ])
