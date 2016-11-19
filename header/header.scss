@@ -349,3 +349,147 @@
         overflow: hidden;
     } 
 }
+
+
+
+
+//nine
+
+
+#header-nine{
+    width: 100%;
+    height: 1rem;
+    display: block;
+    background:$maincolor;   
+    .navigation{
+        width: 5.7rem;
+        height: 0.8rem;
+        @include center;
+        background: #2a3441;
+        border-radius: 0.5rem;
+        background: url(img/002.png);
+        background-size: cover;
+        .topLeft{
+            float: left;
+            margin:0.04rem 0.12rem;
+            width: 1.65rem;
+            height: 0.7rem;
+            border-radius: 0.05rem;
+            background: url(img/x1.png);
+            background-size: cover;
+            overflow: hidden;
+            font-size: 0.1rem;
+            .ch{
+                font-size: 0.25rem;
+                color: #FFFFFF;
+                @include level;
+                top: 0.15rem;
+                display: block;
+                width: 100%;
+                height: 0.25rem;
+                text-align: center;
+                line-height: 0.25rem;
+                letter-spacing: 0.03rem;
+            }
+            .en{
+               
+                color: #91c8e4;
+                @include level;
+                bottom: 0.15rem;
+                display: block;
+                width: 100%;
+                height: 0.1rem;
+                text-align: center;
+                line-height: 0.1rem;
+                 font-size: 0.1rem;
+//              letter-spacing: 0.03rem;
+            }
+        }
+        .topCenter{
+            float: left;
+            margin:0.04rem 0.12rem;
+            width: 1.65rem;
+            height: 0.7rem;
+            border-radius: 0.05rem;
+//          background: url(img/x1.png);
+            background-size: cover;
+            overflow: hidden;
+            .ch{
+                font-size: 0.25rem;
+                color: #FFFFFF;
+                @include level;
+                top: 0.15rem;
+                display: block;
+                width: 100%;
+                height: 0.25rem;
+                text-align: center;
+                line-height: 0.25rem;
+                letter-spacing: 0.03rem;
+            }
+            .en{
+               
+                color: #91c8e4;
+                @include level;
+                bottom: 0.15rem;
+                display: block;
+                width: 100%;
+                height: 0.1rem;
+                text-align: center;
+                line-height: 0.1rem;
+                 font-size: 0.1rem;
+//              letter-spacing: 0.03rem;
+            }
+        }
+        .topRight{
+            float: left;
+            margin:0.04rem 0.12rem;
+            width: 1.65rem;
+            height: 0.7rem;
+            border-radius: 0.05rem;
+//          background: url(img/x1.png);
+            background-size: cover;
+            overflow: hidden;
+            .ch{
+                font-size: 0.25rem;
+                color: #FFFFFF;
+                @include level;
+                top: 0.15rem;
+                display: block;
+                width: 100%;
+                height: 0.25rem;
+                text-align: center;
+                line-height: 0.25rem;
+                letter-spacing: 0.03rem;
+            }
+            .en{
+               
+                color: #91c8e4;
+                @include level;
+                bottom: 0.15rem;
+                display: block;
+                width: 100%;
+                height: 0.1rem;
+                text-align: center;
+                line-height: 0.1rem;
+                 font-size: 0.1rem;
+//              letter-spacing: 0.03rem;
+            }
+        }
+        
+        
+        
+    }
+   
+
+    .headerRight{
+        position: absolute;
+        @include vertical;
+        right: 0.2rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(img/6.png);
+        background-size: cover;
+        overflow: hidden;
+    } 
+}

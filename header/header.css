@@ -448,3 +448,165 @@ img {
   background-size: cover;
   overflow: hidden;
 }
+
+#header-nine {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+}
+
+#header-nine .navigation {
+  width: 5.7rem;
+  height: 0.8rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #2a3441;
+  border-radius: 0.5rem;
+  background: url(img/002.png);
+  background-size: cover;
+}
+
+#header-nine .navigation .topLeft {
+  float: left;
+  margin: 0.04rem 0.12rem;
+  width: 1.65rem;
+  height: 0.7rem;
+  border-radius: 0.05rem;
+  background: url(img/x1.png);
+  background-size: cover;
+  overflow: hidden;
+  font-size: 0.1rem;
+}
+
+#header-nine .navigation .topLeft .ch {
+  font-size: 0.25rem;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.25rem;
+  text-align: center;
+  line-height: 0.25rem;
+  letter-spacing: 0.03rem;
+}
+
+#header-nine .navigation .topLeft .en {
+  color: #91c8e4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  text-align: center;
+  line-height: 0.1rem;
+  font-size: 0.1rem;
+}
+
+#header-nine .navigation .topCenter {
+  float: left;
+  margin: 0.04rem 0.12rem;
+  width: 1.65rem;
+  height: 0.7rem;
+  border-radius: 0.05rem;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-nine .navigation .topCenter .ch {
+  font-size: 0.25rem;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.25rem;
+  text-align: center;
+  line-height: 0.25rem;
+  letter-spacing: 0.03rem;
+}
+
+#header-nine .navigation .topCenter .en {
+  color: #91c8e4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  text-align: center;
+  line-height: 0.1rem;
+  font-size: 0.1rem;
+}
+
+#header-nine .navigation .topRight {
+  float: left;
+  margin: 0.04rem 0.12rem;
+  width: 1.65rem;
+  height: 0.7rem;
+  border-radius: 0.05rem;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#header-nine .navigation .topRight .ch {
+  font-size: 0.25rem;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.25rem;
+  text-align: center;
+  line-height: 0.25rem;
+  letter-spacing: 0.03rem;
+}
+
+#header-nine .navigation .topRight .en {
+  color: #91c8e4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0.15rem;
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  text-align: center;
+  line-height: 0.1rem;
+  font-size: 0.1rem;
+}
+
+#header-nine .headerRight {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/6.png);
+  background-size: cover;
+  overflow: hidden;
+}
