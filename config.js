@@ -3,6 +3,8 @@ app.config([
 	function($routeProvider){
 		$routeProvider.when('/',{
 			
+		}).when('/reading',{
+			templateUrl:'pages/reading/reading.html',
 		})
 	}
 ])
