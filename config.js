@@ -26,6 +26,9 @@ app.config([
 		}).when('/catalogue',{
 			templateUrl:'reading/catalogue/catalogue.html',
 			controller:'catalogueCtrl'
+		}).when('/bookmark',{
+			templateUrl:'reading/bookmark/bookmark.html',
+			controller:'bookmarkCtrl'
 		})
 	}
 ])
