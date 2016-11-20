@@ -29,6 +29,27 @@ app.config([
 		}).when('/bookmark',{
 			templateUrl:'reading/bookmark/bookmark.html',
 			controller:'bookmarkCtrl'
+		}).when('/yijianfankui',{
+			templateUrl:'mybook/yijianfankui/yijianfankui.html',
+			controller:'yijianfankuiCtrl'
+		}).when('/wodeziliao',{
+			templateUrl:'mybook/wodeziliao/wodeziliao.html',
+			controller:'wodeziliaoCtrl'
+		}).when('/wodexinxi',{
+			templateUrl:'mybook/wodexinxi/wodexinxi.html',
+			controller:'wodexinxiCtrl'
+		}).when('/shezhi',{
+			templateUrl:'mybook/shezhi/shezhi.html',
+			controller:'shezhiCtrl'
+		}).when('/pianhaoxuanze',{
+			templateUrl:'mybook/pianhaoxuanze/pianhaoxuanze.html',
+			controller:'pianhaoxuanzeCtrl'
+		}).when('/gerenzhongxin',{
+			templateUrl:'mybook/gerenzhongxin/gerenzhongxin.html',
+			controller:'gerenzhongxinCtrl'
+		}).when('/banbenxinxi',{
+			templateUrl:'mybook/banbenxinxi/banbenxinxi.html',
+			controller:'banbenxinxiCtrl'
 		})
 	}
 ])
