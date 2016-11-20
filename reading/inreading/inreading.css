@@ -325,5 +325,25 @@ img {
   #reading .out-act2 {
     transition: all 0.6s linear;
     width: 0; }
+  #reading .copy {
+    position: absolute;
+    left: 2rem;
+    top: 3rem;
+    width: 3.98rem;
+    height: 0.46rem;
+    padding-bottom: 0.02rem;
+    overflow: hidden;
+    border-radius: 0.12rem; }
+    #reading .copy .copy-eve {
+      float: left;
+      width: 0.74rem;
+      height: 100%;
+      background: #272727;
+      border-right: 0.02rem solid #202020;
+      line-height: 0.44rem;
+      text-align: center;
+      font-size: 0.17rem; }
+      #reading .copy .copy-eve a {
+        color: #fff; }
 
-/*# sourceMappingURL=reading.css.map */
+/*# sourceMappingURL=inreading.css.map */

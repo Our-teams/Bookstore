@@ -29,21 +29,21 @@ a{
 img{
     border: 0;
 }
-/*垂直居中vertical*/
+/*vertical*/
 @mixin vertical {
     position: absolute;
     top: 0;
     bottom: 0;
     margin: auto;
 }
-/*水平居中level*/
+/*level*/
 @mixin level {
     position: absolute;
     left: 0;
     right: 0;
     margin: auto;
 }
-/*全居中center*/
+/*center*/
 @mixin center {
     position: absolute;
     top: 0;
@@ -59,6 +59,6 @@ img{
 }
 
 
-/*蓝色：$maincolor*/
+
 $maincolor:#29a6dc;
 $imgpath:"../img";
