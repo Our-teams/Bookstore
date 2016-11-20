@@ -20,6 +20,15 @@ app.config([
 		}).when('/success',{
 			templateUrl:'pages/Success/Success.html',
 			controller:'successCtrl'
+			
+		}).when('/manageshu',{
+			templateUrl:'pages/manageshu/manageshu.html',
+			controller:'manageshuCtrl'
+			
+		}).when('/managesnote',{
+			templateUrl:'pages/managesnote/managesnote.html',
+			controller:'managesnoteCtrl'
+			
 		})
 	}
 ])
