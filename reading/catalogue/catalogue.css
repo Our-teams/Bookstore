@@ -14,7 +14,7 @@
   margin: auto;
   background: #2a3441;
   border-radius: 0.5rem;
-  background: url(img/002.png);
+  background: url(../../img/002.png);
   background-size: cover; }
 .catalogue #header-nine .navigation .topLeft {
   float: left;
@@ -22,7 +22,7 @@
   width: 1.65rem;
   height: 0.7rem;
   border-radius: 0.05rem;
-  background: url(img/x1.png);
+  background: url(../../img/x1.png);
   background-size: cover;
   overflow: hidden;
   font-size: 0.1rem; }
@@ -46,13 +46,13 @@
   left: 0;
   right: 0;
   margin: auto;
-  bottom: 0.15rem;
+  bottom: 0.1rem;
   display: block;
   width: 100%;
   height: 0.1rem;
   text-align: center;
   line-height: 0.1rem;
-  font-size: 0.1rem; }
+  font-size: 0.04rem; }
 .catalogue #header-nine .navigation .topCenter {
   float: left;
   margin: 0.04rem 0.12rem;
@@ -88,7 +88,7 @@
   height: 0.1rem;
   text-align: center;
   line-height: 0.1rem;
-  font-size: 0.1rem; }
+  font-size: 0.06rem; }
 .catalogue #header-nine .navigation .topRight {
   float: left;
   margin: 0.04rem 0.12rem;
@@ -124,7 +124,7 @@
   height: 0.1rem;
   text-align: center;
   line-height: 0.1rem;
-  font-size: 0.1rem; }
+  font-size: 0.06rem; }
 .catalogue #header-nine .headerRight {
   position: absolute;
   position: absolute;

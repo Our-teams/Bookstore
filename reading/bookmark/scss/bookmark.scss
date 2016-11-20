@@ -1,5 +1,5 @@
 //@import "base";
-$maincolor:#29a6dc;
+//$maincolor:#29a6dc;
 $imgpath:"../img";
 #mark{
    #header-four{
@@ -7,7 +7,19 @@ $imgpath:"../img";
     height: 1rem;
     display: block;
     background:#29A6DC;   
-     
+     .headerLeft{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0.2rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(../../img/left.png);
+        background-size: cover;
+        overflow: hidden;
+    }    
      .center{
          width: 0.4rem;
          height: 0.08rem;
@@ -17,7 +29,7 @@ $imgpath:"../img";
          top: 0;
          bottom: 0;
          margin: auto;
-         background: url($imgpath/001.png);
+         background: url(../../001.png);
         background-size: cover;
          
      }

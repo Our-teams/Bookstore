@@ -1,7 +1,8 @@
+$(function(){
 app.controller("catalogueCtrl",["$scope",function($scope){
 
 }])
-$(function(){
+
 	$(".catalogue").find(".nav-choose").on("click",function(){
 		console.log(5)
 		$(".navigation").find(".nav-choose").css("background","transparent");

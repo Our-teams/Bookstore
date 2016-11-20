@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="test">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width"/>				
+		<title></title>
+		<link rel="stylesheet" href="list.css" />
+		<script src="../../js/angular.js"></script>
+		<script src="../../js/jquery.js"></script>
+		<script src="list.js"></script>
+	</head>
+	<body ng-controller="list">
+		<div id="header-nine">
+			<div class="navigation">
+				<a href="#" class="topLeft">
+					<span class="ch">精选</span>
+					<span class="en">SELECTED</span>
+				</a>
+				<a href="#" class="topCenter">
+					<span class="ch">榜单</span>
+					<span class="en">LIST</span>
+				</a>
+				<a href="#" class="topRight">
+					<span class="ch">分类</span>
+					<span class="en">CLASSIFY</span>
+				</a>				
+			</div>
+			<a class="headerRight" href="#"></a>
+		</div>
+		
+		
+		<ul class="matter" ng-repeat="v in one">
+			<li class="letter">
+				<div class="tupian"></div>
+				<span class="wlwx">{{v.name}}</span>
+			</li>
+			<li class="lis">
+				<div class="title">·女士专区</div>
+				<div class="this" ng-repeat="x in three">
+					<div class="lei">{{x.name}}</div>
+				</div>
+			</li>
+			<li class="lis">
+				<div class="title">·男士专区</div>
+				<div class="this" ng-repeat="x in three">
+					<div class="lei">{{x.name}}</div>
+				</div>
+			</li>
+		</ul>
+		
+
+		
+		<div id="footer-one">
+			<a href="#" class="bookrack">
+				<span>书架</span>
+			</a>
+			<a href="#" class="bookCity">
+				<span>书城</span>				
+			</a>
+			<a href="#" class="personage">
+				<span>我的</span>				
+			</a>
+		</div>
+	</body>
+</html>

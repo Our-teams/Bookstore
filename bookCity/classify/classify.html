@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html ng-app="test">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width"/>				
+		<title></title>
+		<link rel="stylesheet" href="classify.css" />
+		<script src="../../js/angular.js"></script>
+		<script src="../../js/jquery.js"></script>
+		<script src="classify.js"></script>
+	</head>
+	<body ng-controller="classify">
+		<div id="header-nine">
+			<div class="navigation">
+				<a href="#" class="topLeft">
+					<span class="ch">精选</span>
+					<span class="en">SELECTED</span>
+				</a>
+				<a href="#" class="topCenter">
+					<span class="ch">榜单</span>
+					<span class="en">LIST</span>
+				</a>
+				<a href="#" class="topRight">
+					<span class="ch">分类</span>
+					<span class="en">CLASSIFY</span>
+				</a>				
+			</div>
+			<a class="headerRight" href="#"></a>
+		</div>
+		
+		<ul id="Top">
+			<li ng-repeat="v in lists">
+				<div class="li-left">
+					<span class="one">{{v.name}}·阅读榜单</span>
+					<span class="two">New book reading list</span>
+					<div class="tu"></div>
+					<span class="three">美味的食物贵的</span>
+					<span class="four">有山珍海味便宜的有街边小吃其实美</span>
+					<span class="five">食是分贵</span>
+				</div>
+				<div class="li-right">
+					<div class="topTwo"></div>
+					<span class="top-two">英国脱欧:明智or愚蠢</span>
+					<div class="topOne"></div>
+					<span class="top-one">向着光亮那方【精装】</span>
+					<div class="topThree"></div>
+					<span class="top-three">月童度河【精装】</span>
+				</div>
+			</li>
+			
+		</ul>
+		
+		
+		
+		
+		
+		<div id="footer-one">
+			<a href="#" class="bookrack">
+				<span>书架</span>
+			</a>
+			<a href="#" class="bookCity">
+				<span>书城</span>				
+			</a>
+			<a href="#" class="personage">
+				<span>我的</span>				
+			</a>
+		</div>
+	</body>
+</html>

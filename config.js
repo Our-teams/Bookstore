@@ -59,6 +59,21 @@ app.config([
 		}).when('/banbenxinxi',{
 			templateUrl:'mybook/banbenxinxi/banbenxinxi.html',
 			controller:'banbenxinxiCtrl'
+		}).when('/Hotsearch',{
+			templateUrl:'bookcase/Hotsearch/search.html',
+			controller:'HotsearchCtrl'
+		}).when('/Fashiondesign2',{
+			templateUrl:'bookcase/Fashiondesign2/clothing2.html',
+			controller:'Fashiondesign2Ctrl'
+		}).when('/Fashiondesign1',{
+			templateUrl:'bookcase/Fashiondesign1/clothing1.html',
+			controller:'Fashiondesign1Ctrl'
+		}).when('/Fashiondesign4',{
+			templateUrl:'bookCity/Fashiondesign4/clothing4.html',
+			controller:'Fashiondesign4Ctrl'
+		}).when('/Fashiondesign3',{
+			templateUrl:'bookCity/Fashiondesign3/clothing3.html',
+			controller:'Fashiondesign3Ctrl'
 		})
 	}
 ])

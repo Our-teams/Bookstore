@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html ng-app="test">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width"/>				
+		<title></title>
+		<link rel="stylesheet" href="choiceness.css" />
+		<script src="../../js/angular.js"></script>
+		<script src="../../js/jquery.js"></script>
+		<script src="choiceness.js"></script>
+	</head>
+	<body ng-controller="choiceness">
+		<div id="header-nine">
+			<div class="navigation">
+				<a href="#" class="topLeft">
+					<span class="ch">精选</span>
+					<span class="en">SELECTED</span>
+				</a>
+				<a href="#" class="topCenter">
+					<span class="ch">榜单</span>
+					<span class="en">LIST</span>
+				</a>
+				<a href="#" class="topRight">
+					<span class="ch">分类</span>
+					<span class="en">CLASSIFY</span>
+				</a>				
+			</div>
+			<a class="headerRight" href="#"></a>
+		</div>
+		
+		<div id="center">
+			<div class="banner">
+				<span class="banCh">产品设计构思与表达</span>
+				<div class="hen"></div>
+				<span class="banEn"><h3>Product</h3><p> design conception and expression</p></span>
+			</div>
+			<div class="circle">
+				<ul>
+					<li class="index"></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="new">
+				<div class="icon"></div>
+				<div class="newCh">最新上架</div>
+				<div class="newEn">new arrival</div>
+			</div>
+			<ul class="book">
+				<li ng-repeat="v in books">
+					<div class="img"></div>
+					<div class="bookName">
+						<span class="name">地狱(电影《但丁
+密码》原著...</span>
+						<span class="author">(美)丹·布朗</span>
+					</div>
+				</li>
+				
+			</ul>
+		
+		
+		
+		
+		</div>
+		
+		
+		<div id="footer-two">
+			<a href="#" class="bookrack">
+				<span>书架</span>
+			</a>
+			<a href="#" class="bookCity">
+				<span>书城</span>				
+			</a>
+			<a href="#" class="personage">
+				<span>我的</span>				
+			</a>
+		</div>
+	</body>
+</html>
