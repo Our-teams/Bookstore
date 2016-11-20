@@ -13,13 +13,13 @@ app.config([
 			templateUrl:'pages/read2/read2.html',
 			controller:'read2Ctrl'
 
-		}).when('/read2',{
-			templateUrl:'pages/read2/read2.html',
-			controller:'read2Ctrl'
-
 		}).when('/shuping',{
 			templateUrl:'pages/shuping/shuping.html',
 			controller:'shupingCtrl'
+
+		}).when('/success',{
+			templateUrl:'pages/Success/Success.html',
+			controller:'successCtrl'
 		})
 	}
 ])
