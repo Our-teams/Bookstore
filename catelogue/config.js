@@ -12,9 +12,6 @@ app.config([
 		}).when('/read2',{
 			templateUrl:'pages/read2/read2.html',
 			controller:'read2Ctrl'
-		}).when('/read2',{
-			templateUrl:'pages/read2/read2.html',
-			controller:'read2Ctrl'
 		})
 	}
 ])
