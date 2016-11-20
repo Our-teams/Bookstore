@@ -1,3 +1,3 @@
-app.controller("readCtrl",["$scope",function($scope){
+app.controller("readingCtrl",["$scope",function($scope){
 	
 }])

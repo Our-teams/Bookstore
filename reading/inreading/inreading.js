@@ -1,3 +1,6 @@
+app.controller("inreadingCtrl",["$scope",function($scope){
+	
+}])
 $(function(){
 	var first;
 	var inNub=0;
@@ -47,7 +50,8 @@ e.preventDefault();
 	console.log($(".page-opacity .pro-go"))
 	$(".page-opacity .pro-go").find(".pro-cir").on("touchstart",function(e){
 		e.preventDefault();
-		var proF=e.originalEvent.changedTouches[0].clientX;		$(document).on("touchmove",function(e){
+		var proF=e.originalEvent.changedTouches[0].clientX;
+		$(document).on("touchmove",function(e){
 			var progo=e.originalEvent.changedTouches[0].clientX-$(".pro-cir").offset().left+($(".pro-cir").outerWidth()/2)
 				if(progo>=0 && progo<466){
 					$(".pro-cir").css("left",progo)

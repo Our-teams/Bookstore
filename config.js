@@ -20,6 +20,12 @@ app.config([
 		}).when('/success',{
 			templateUrl:'pages/Success/Success.html',
 			controller:'successCtrl'
+		}).when('/inreading',{
+			templateUrl:'reading/inreading/inreading.html',
+			controller:'inreadingCtrl'
+		}).when('/catalogue',{
+			templateUrl:'reading/catalogue/catalogue.html',
+			controller:'catalogueCtrl'
 		})
 	}
 ])
