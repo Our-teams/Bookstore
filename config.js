@@ -20,7 +20,6 @@ app.config([
 		}).when('/success',{
 			templateUrl:'pages/Success/Success.html',
 			controller:'successCtrl'
-<<<<<<< HEAD
 			
 		}).when('/manageshu',{
 			templateUrl:'pages/manageshu/manageshu.html',
@@ -30,7 +29,6 @@ app.config([
 			templateUrl:'pages/managesnote/managesnote.html',
 			controller:'managesnoteCtrl'
 			
-=======
 		}).when('/inreading',{
 			templateUrl:'reading/inreading/inreading.html',
 			controller:'inreadingCtrl'
@@ -40,7 +38,6 @@ app.config([
 		}).when('/bookmark',{
 			templateUrl:'reading/bookmark/bookmark.html',
 			controller:'bookmarkCtrl'
->>>>>>> 1ae3ff5ee0d22ef9f0044ebf16f82cf67bce2ea6
 		})
 	}
 ])
