@@ -11,7 +11,27 @@
   height: 100%;
   overflow: auto;
 }
+#header-seven {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+}
 
+#header-seven .headerLeft {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/left.png);
+  background-size: cover;
+  overflow: hidden;
+}
 #all .book {
   width: 92%;
   height: 5.3rem;
@@ -340,7 +360,9 @@
   text-align: center;
   line-height: 0.35rem;
 }
-
+#all .new-shuping .anniu a{
+	color: #fff;
+}
 #all .zhangjie .shuqian {
   margin-top: 0.1rem;
 }
