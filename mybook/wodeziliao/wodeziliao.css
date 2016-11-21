@@ -92,11 +92,20 @@ img {
   margin: 0.1rem auto;
 }
 
-.zhe .tan .top .biaoti .icon {
+.zhe .tan .top .biaoti .icon1 {
   float: left;
   width: 0.65rem;
   height: 0.65rem;
-  background: url(img/left.png);
+  background: url(img/yonghu.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.zhe .tan .top .biaoti .icon2 {
+  float: left;
+  width: 0.65rem;
+  height: 0.65rem;
+  background: url(img/xingbie.png);
   background-size: cover;
   overflow: hidden;
 }
