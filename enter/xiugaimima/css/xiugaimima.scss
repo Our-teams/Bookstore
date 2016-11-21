@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#wz{
+    width: 750px;
+    height: 858px;
+    background: #f2f2f2;
+    margin: auto;
+    position: relative;
+    #bj{
+        width:752px;
+        height: 80px;
+        background: #29A6DC;
+    }
+    #zikuan{
+         width:752px;
+         height: 30px;
+         text-align: center;
+         line-height: 30px;
+         margin-top: 10px;
+          span{
+        
+        color: #344082;
+//      position: absolute;
+//      top: 0;
+//      left:100px;
+         
+         
+    }
+    } 
+    #zikuang{
+        width: 752px;
+        height: 30px;
+
+         line-height: 30px;
+         position: relative;
+         span{
+        
+        color: #344082;
+        margin-right: 100px;
+        position: absolute;
+        right: 0;
+            }
+    }
+#kuang{
+    width: 618px;
+    height: 88px;
+margin-top: 30px;
+        margin-left:60px;
+    position: relative;
+      background: url(../images/9.png);
+   input{
+       position: absolute;
+       left: 120px;
+       top: 25px;
+       font-size: 30px;
+       border: 0;
+       
+   }
+}
+#pass{
+    width: 618px;
+    height: 88px;
+margin-top: 30px;
+        margin-left:60px;
+    position: relative;
+      background: url(../images/2.png);
+   input{
+       position: absolute;
+       left: 120px;
+       top: 25px;
+       font-size: 30px;
+       border: 0;
+       
+   }
+} 
+
+#yanzhengma{
+    margin-top: 30px;
+        margin-left:60px;
+    position: relative;
+}
+#passs{
+    width: 208px;
+    height: 87px;
+margin-top: -92px;
+        margin-left:460px;
+    position: relative;
+      background: url(../images/12.png);
+   input{
+       position: absolute;
+       left:20px;
+       top: 25px;
+       font-size: 20px;
+       border: 0;
+       background: none;
+       
+   }
+} 
+.key{
+
+top: 720px;
+  left: 110px;
+    position: absolute;
+ }   
+ .a{
+      top: 720px;
+  left: 150px;
+  position: absolute;
+   } 
+
+ .keyy{
+
+top: 720px;
+  right: 190px;
+    position: absolute;
+ }   
+     #a{
+      top: 720px;
+  right: 110px;
+  position: absolute;
+   } 
+.di{
+   padding-left: 90px;
+    margin:60px auto;
+}
+}
