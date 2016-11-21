@@ -67,7 +67,7 @@ img {
   bottom: 0;
   width: 100%;
   height: 13.34rem;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.6);
   z-index: 5;
 }
 
@@ -75,6 +75,7 @@ img {
   width: 4.8rem;
   height: 3.5rem;
   margin: 3.87rem auto;
+  border-radius:8px 8px ;
   background: #fff;
 }
 
@@ -173,7 +174,7 @@ img {
 .zhe .tan .man .main .lis .nan {
   width: 1rem;
   height: 1rem;
-  margin-top: 0.6rem;
+  margin: 0.6rem auto;
   border-radius: 50%;
   background: url(img/nan.png) no-repeat;
   background-size: contain;
@@ -183,7 +184,7 @@ img {
 .zhe .tan .man .main .lis .nv {
   width: 1rem;
   height: 1rem;
-  margin-top: 0.6rem;
+  margin: 0.6rem auto;
   border-radius: 50%;
   background: url(img/nv.png) no-repeat;
   background-size: contain;
@@ -191,9 +192,9 @@ img {
 }
 
 .zhe .tan .quxiao {
-  width: 40%;
-  height: 0.4rem;
-  margin: 0.5rem auto;
+  width: 60%;
+  height: 0.6rem;
+  margin: 0.4rem auto;
   background: url(img/quxiao.png) no-repeat;
   background-size: contain;
   overflow: hidden;

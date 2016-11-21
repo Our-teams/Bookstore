@@ -165,7 +165,9 @@ img {
   width: 93%;
   margin: 0 auto;
   height: 7rem;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: #666 0px 0px 10px;  
+  -moz-box-shadow: #666 0px 0px 10px;  
+  box-shadow: #666 0px 0px 10px; 
 }
 
 #wodexinxi .mainer .main2 {
