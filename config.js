@@ -59,6 +59,9 @@ app.config([
 		}).when('/banbenxinxi',{
 			templateUrl:'mybook/banbenxinxi/banbenxinxi.html',
 			controller:'banbenxinxiCtrl'
+		}).when('/mybookshelf',{
+			templateUrl:'bookcase/mybookshelf/bookshelf.html',
+			controller:'mybookshelfCtrl'
 		}).when('/Hotsearch',{
 			templateUrl:'bookcase/Hotsearch/search.html',
 			controller:'HotsearchCtrl'
