@@ -72,8 +72,10 @@
                 margin-top: 0.1rem;
             }
             .icon{
-                width:0.4rem;
-                background: url(img/001.png);
+                width:0.6rem;
+                background: url(img/tianxie.png) no-repeat;
+                background-size: contain;
+                overflow: hidden;
             }
             .yijian{
                 width:85%;
