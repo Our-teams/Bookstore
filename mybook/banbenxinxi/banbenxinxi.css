@@ -58,19 +58,19 @@ img {
 /*水平居中level*/
 /*全居中center*/
 /*蓝色：$maincolor*/
-.header {
+#banbenxinxi .header {
   height: 1rem;
   margin-bottom: 0.1rem;
 }
 
-.header #header-four {
+#banbenxinxi .header #header-four {
   width: 100%;
   height: 1rem;
   display: block;
   background: #29a6dc;
 }
 
-.header #header-four .headerLeft {
+#banbenxinxi .header #header-four .headerLeft {
   position: absolute;
   position: absolute;
   top: 0;
@@ -85,7 +85,7 @@ img {
   overflow: hidden;
 }
 
-.header #header-four .title {
+#banbenxinxi .header #header-four .title {
   font-size: 0.4rem;
   line-height: 0.4rem;
   color: #fff;
@@ -102,7 +102,7 @@ img {
   font-size: 14px;
 }
 
-.header #header-four .en {
+#banbenxinxi .header #header-four .en {
   font-size: 0.15rem;
   line-height: 0.45rem;
   font-weight: bold;
@@ -117,7 +117,7 @@ img {
   text-align: center;
 }
 
-.header #header-four .headerRight {
+#banbenxinxi .header #header-four .headerRight {
   position: absolute;
   position: absolute;
   top: 0;
@@ -132,7 +132,7 @@ img {
   overflow: hidden;
 }
 
-.fankui {
+#banbenxinxi .fankui {
   width: 90%;
   height: 6rem;
   margin: 0 auto;
@@ -140,20 +140,20 @@ img {
   margin-bottom: 1rem;
 }
 
-.fankui .top {
+#banbenxinxi .fankui .top {
   width: 50%;
   margin: 0 auto;
   height: 1rem;
 }
 
-.fankui .top .banben1 {
+#banbenxinxi .fankui .top .banben1 {
   width: 60%;
   margin: 0 auto;
   height: 0.4rem;
   line-height: 0.4rem;
 }
 
-.fankui .top .banben2 {
+#banbenxinxi .fankui .top .banben2 {
   width: 90%;
   margin: 0 auto;
   height: 0.2rem;
@@ -161,14 +161,14 @@ img {
   font-size: 4px;
 }
 
-.fankui .input {
+#banbenxinxi .fankui .input {
   width: 90%;
   margin: 0 auto;
   height: 3rem;
   margin-bottom: 0.5rrem;
 }
 
-.fankui .input span {
+#banbenxinxi .fankui .input span {
   width: 100%;
   height: 3rem;
   border: 0;

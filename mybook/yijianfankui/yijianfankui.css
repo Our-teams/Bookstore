@@ -58,19 +58,19 @@ img {
 /*水平居中level*/
 /*全居中center*/
 /*蓝色：$maincolor*/
-.header {
+#yijianfankui .header {
   height: 1rem;
   margin-bottom: 0.1rem;
 }
 
-.header #header-four {
+#yijianfankui .header #header-four {
   width: 100%;
   height: 1rem;
   display: block;
   background: #29a6dc;
 }
 
-.header #header-four .headerLeft {
+#yijianfankui .header #header-four .headerLeft {
   position: absolute;
   position: absolute;
   top: 0;
@@ -85,7 +85,7 @@ img {
   overflow: hidden;
 }
 
-.header #header-four .title {
+#yijianfankui .header #header-four .title {
   font-size: 0.4rem;
   line-height: 0.4rem;
   color: #fff;
@@ -102,7 +102,7 @@ img {
   font-size: 14px;
 }
 
-.header #header-four .en {
+#yijianfankui .header #header-four .en {
   font-size: 0.15rem;
   line-height: 0.45rem;
   font-weight: bold;
@@ -117,7 +117,7 @@ img {
   text-align: center;
 }
 
-.header #header-four .headerRight {
+#yijianfankui .header #header-four .headerRight {
   position: absolute;
   position: absolute;
   top: 0;
@@ -132,7 +132,7 @@ img {
   overflow: hidden;
 }
 
-.fankui {
+#yijianfankui .fankui {
   width: 90%;
   height: 6rem;
   margin: 0 auto;
@@ -140,53 +140,53 @@ img {
   margin-bottom: 1rem;
 }
 
-.fankui .top {
+#yijianfankui .fankui .top {
   width: 100%;
   height: 1rem;
 }
 
-.fankui .top div {
+#yijianfankui .fankui .top div {
   float: left;
   height: 0.8rem;
   margin-top: 0.1rem;
 }
 
-.fankui .top .icon {
+#yijianfankui .fankui .top .icon {
   width: 0.4rem;
   background: url(img/001.png);
 }
 
-.fankui .top .yijian {
+#yijianfankui .fankui .top .yijian {
   width: 85%;
 }
 
-.fankui .top .yijian span {
+#yijianfankui .fankui .top .yijian span {
   display: block;
 }
 
-.fankui .top .yijian span:nth-of-type(1) {
+#yijianfankui .fankui .top .yijian span:nth-of-type(1) {
   height: 0.4rem;
   font-size: 8px;
 }
 
-.fankui .top .yijian span:nth-of-type(2) {
+#yijianfankui .fankui .top .yijian span:nth-of-type(2) {
   height: 0.2rem;
   font-size: 4px;
 }
 
-.fankui .input {
+#yijianfankui .fankui .input {
   width: 100%;
   height: 3rem;
   margin-bottom: 0.5rrem;
 }
 
-.fankui .input input {
+#yijianfankui .fankui .input input {
   width: 100%;
   height: 3rem;
   border: 0;
 }
 
-.tijiao {
+#yijianfankui .tijiao {
   width: 90%;
   height: 1rem;
   margin: 0 auto;
@@ -195,7 +195,7 @@ img {
   overflow: hidden;
 }
 
-.tijiao .ti {
+#yijianfankui .tijiao .ti {
   width: 80%;
   height: 1rem;
   margin: 0 auto;
