@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+#wz {
+  width: 750px;
+  height: 858px;
+  background: #f2f2f2;
+  margin: auto;
+  position: relative; }
+  #wz #kuang {
+    width: 618px;
+    height: 88px;
+    margin-top: 5px;
+    margin-left: 60px;
+    position: relative;
+    background: url(../images/9.png); }
+    #wz #kuang input {
+      position: absolute;
+      left: 120px;
+      top: 25px;
+      font-size: 30px;
+      border: 0; }
+  #wz #pass {
+    width: 618px;
+    height: 88px;
+    margin-top: 5px;
+    margin-left: 60px;
+    position: relative;
+    background: url(../images/2.png); }
+    #wz #pass input {
+      position: absolute;
+      left: 120px;
+      top: 25px;
+      font-size: 30px;
+      border: 0; }
+  #wz #yanzhengma {
+    margin-top: 5px;
+    margin-left: 60px;
+    position: relative; }
+  #wz #passs {
+    width: 208px;
+    height: 87px;
+    margin-top: -93px;
+    margin-left: 460px;
+    position: relative;
+    background: url(../images/12.png); }
+    #wz #passs input {
+      position: absolute;
+      left: 20px;
+      top: 25px;
+      font-size: 20px;
+      border: 0;
+      background: none; }
+  #wz .key {
+    top: 720px;
+    left: 110px;
+    position: absolute; }
+  #wz .a {
+    top: 720px;
+    left: 150px;
+    position: absolute; }
+  #wz .keyy {
+    top: 720px;
+    right: 190px;
+    position: absolute; }
+  #wz #a {
+    top: 720px;
+    right: 110px;
+    position: absolute; }
+  #wz .di {
+    padding-left: 90px;
+    margin: 60px auto; }
