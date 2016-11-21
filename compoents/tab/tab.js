@@ -5,7 +5,7 @@ app.directive("tab",[function(){
 		templateUrl:"compoents/tab/tab.html",
 		scope:{
 			content:"=",
-			con:"=",		
+			con:"="		
 		},
 		link:function($scope,el){
 			$(el).on("click",".tab-head li",function(){
@@ -13,7 +13,8 @@ app.directive("tab",[function(){
 				lis.removeClass("active");
 				var index=$(this).index();
 				lis.eq(index).addClass("active")
-			})		
+			})	
+//			lunbo
 		}
 	}
 }])

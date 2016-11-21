@@ -35,15 +35,66 @@ img{
     height:100%;
     overflow: hidden;
     background: #FFE7A7;
-    padding: 0 0.26rem;
+//  padding: 0 0.26rem;
+    #header-eight{
+    width: 100%;
+    height: 1rem;
+    display: block;
+    background:#0000FF; 
+//  margin: 0 -0.26rem;  
+    .headerLeft{
+        position: absolute;
+        top: 0;
+       bottom: 0;
+       margin: auto;
+        left: 0.2rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(../../img/left.png);
+        background-size: cover;
+        overflow: hidden;
+    } 
+    
+    .label{
+        position: absolute;
+       top: 0;
+       bottom: 0;
+       margin: auto;
+        right: 0.9rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(../../header/img/3.png);
+        background-size: cover;
+        overflow: hidden;
+    }
+    
+    .headerRight{
+        position: absolute;
+         top: 0;
+       bottom: 0;
+       margin: auto;
+        right: 0.2rem;
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: url(../../header/img/6.png);
+        background-size: cover;
+        overflow: hidden;
+    } 
+}
     .litel{
         height: 0.28rem;
         width: 100%;
         .line-lit{
+            position: absolute;
+            left: 0.28ren;
+            top: 0.06rem;
             width: 100%;
             height: 0.01rem;
-            padding: 0.13rem 0;
-//          background: #CDBA88;
+            margin-top: 0.12rem;
+            background: #666;
         }
         span{
             display: block;
@@ -61,6 +112,7 @@ img{
         font-size: 0.32rem;
         font-family: "microsoft yahei";
         padding-top: 0.14rem;
+        padding-left: 0.14rem;
     }
     p{
        letter-spacing: 0.01rem;

@@ -164,6 +164,7 @@ line-height: 0.1rem;
   overflow: hidden;
 }
     .mulv{
+        width: 100%;
         padding: 0.2rem;
         .cata-eve{
             width: 100%;
@@ -176,21 +177,15 @@ line-height: 0.1rem;
                 color: #4E4E4E;
                 line-height: 1rem;
             }
-            span:nth-child(3){
-                color: #999999;
-            }
             .loadown{
                 float: right;
                 margin-right: 0.3rem;
-                color: #333;
+                color: #999;
             }
         }
         .cata-eve1{
             span{
                 color: #518DE7;
-            }
-              span:nth-child(3){
-              color: #999999;
             }
         }
     }

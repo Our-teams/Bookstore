@@ -8,15 +8,59 @@ img {
   height: 100%;
   overflow: hidden;
   background: #FFE7A7;
-  padding: 0 0.26rem;
   /*opacty*/ }
+  #reading #header-eight {
+    width: 100%;
+    height: 1rem;
+    display: block;
+    background: #0000FF; }
+    #reading #header-eight .headerLeft {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 0.2rem;
+      width: 0.5rem;
+      height: 0.5rem;
+      border-radius: 50%;
+      background: url(../../img/left.png);
+      background-size: cover;
+      overflow: hidden; }
+    #reading #header-eight .label {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      right: 0.9rem;
+      width: 0.5rem;
+      height: 0.5rem;
+      border-radius: 50%;
+      background: url(../../header/img/3.png);
+      background-size: cover;
+      overflow: hidden; }
+    #reading #header-eight .headerRight {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      right: 0.2rem;
+      width: 0.5rem;
+      height: 0.5rem;
+      border-radius: 50%;
+      background: url(../../header/img/6.png);
+      background-size: cover;
+      overflow: hidden; }
   #reading .litel {
     height: 0.28rem;
     width: 100%; }
     #reading .litel .line-lit {
+      position: absolute;
+      left: 0.28ren;
+      top: 0.06rem;
       width: 100%;
       height: 0.01rem;
-      padding: 0.13rem 0; }
+      margin-top: 0.12rem;
+      background: #666; }
     #reading .litel span {
       display: block;
       position: absolute;
@@ -29,7 +73,8 @@ img {
   #reading .essay-head {
     font-size: 0.32rem;
     font-family: "microsoft yahei";
-    padding-top: 0.14rem; }
+    padding-top: 0.14rem;
+    padding-left: 0.14rem; }
   #reading p {
     letter-spacing: 0.01rem;
     word-spacing: 1rem;

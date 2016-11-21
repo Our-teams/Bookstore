@@ -139,6 +139,7 @@
   background-size: cover;
   overflow: hidden; }
 .catalogue .mulv {
+  width: 100%;
   padding: 0.2rem; }
   .catalogue .mulv .cata-eve {
     width: 100%;
@@ -150,16 +151,12 @@
       font-size: 0.28rem;
       color: #4E4E4E;
       line-height: 1rem; }
-    .catalogue .mulv .cata-eve span:nth-child(3) {
-      color: #999999; }
     .catalogue .mulv .cata-eve .loadown {
       float: right;
       margin-right: 0.3rem;
-      color: #333; }
+      color: #999; }
   .catalogue .mulv .cata-eve1 span {
     color: #518DE7; }
-  .catalogue .mulv .cata-eve1 span:nth-child(3) {
-    color: #999999; }
 .catalogue .bookmark {
   width: 100%; }
   .catalogue .bookmark .total {

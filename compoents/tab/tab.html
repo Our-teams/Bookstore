@@ -1,10 +1,5 @@
-<div tab>
+<div >
 	<style type="text/css">
-		#tab-xuan{
-			
-			
-		
-		}
 		#tab-xuan .tab-head{
 			width: 100%;
 			height: 1rem;
@@ -40,14 +35,24 @@
 			#tab-xuan .con .active{
 				display: block;
 			}
+			/*轮播*/
+			#tab-xuan .lunbo{
+				width: 6rem;
+				height: 4rem;
+				background: red;
+			}
 	</style>
 	<div id="tab-xuan">
-	<ul class="tab-head">
-		<li  class="heah-eve" ng-repeat="v in content track by $index">{{v}}</li>
-	</ul>
-	<ul class="con">
-		<li ng-class="{active:$index===0}" class="con-eve" ng-repeat="v in con track by $index">{{v}}</li>
+		<ul class="tab-head">
+			<li  class="heah-eve" ng-repeat="v in content track by $index">{{v}}</li>
+		</ul>
+		<ul class="con">
+			<li ng-class="{active:$index===0}" class="con-eve" ng-repeat="v in con track by $index">{{v}}</li>
+			
+		</ul>
+		<ul class="lunbo"></ul>
+		</div>
 		
-	</ul>
-	</div>
+		
+	
 </div>
