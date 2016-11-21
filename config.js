@@ -74,6 +74,9 @@ app.config([
 		}).when('/Fashiondesign3',{
 			templateUrl:'bookCity/Fashiondesign3/clothing3.html',
 			controller:'Fashiondesign3Ctrl'
+		}).when('/xuanxiang',{
+			templateUrl:'reading/xuanxiang/xuanxiang.html',
+			controller:'xuanxiangCtrl'
 		})
 	}
 ])
