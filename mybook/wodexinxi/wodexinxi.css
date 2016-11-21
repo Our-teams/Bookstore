@@ -58,19 +58,19 @@ img {
 /*水平居中level*/
 /*全居中center*/
 /*蓝色：$maincolor*/
-.header {
+#wodexinxi .header {
   height: 1rem;
   margin-bottom: 0.1rem;
 }
 
-.header #header-four {
+#wodexinxi .header #header-four {
   width: 100%;
   height: 1rem;
   display: block;
   background: #29a6dc;
 }
 
-.header #header-four .headerLeft {
+#wodexinxi .header #header-four .headerLeft {
   position: absolute;
   position: absolute;
   top: 0;
@@ -85,7 +85,7 @@ img {
   overflow: hidden;
 }
 
-.header #header-four .title {
+#wodexinxi .header #header-four .title {
   font-size: 0.4rem;
   line-height: 0.4rem;
   color: #fff;
@@ -102,7 +102,7 @@ img {
   font-size: 14px;
 }
 
-.header #header-four .en {
+#wodexinxi .header #header-four .en {
   font-size: 0.15rem;
   line-height: 0.45rem;
   font-weight: bold;
@@ -117,7 +117,7 @@ img {
   text-align: center;
 }
 
-.xuanze {
+#wodexinxi .xuanze {
   width: 80%;
   height: 1rem;
   margin: 0 auto;
@@ -126,83 +126,83 @@ img {
   overflow: hidden;
 }
 
-.xuanze .xu {
-  width: 40%;
+#wodexinxi .xuanze .xu {
+  width: 50%;
   height: 1rem;
-  text-align: left;
+  text-align: center;
   line-height: 1rem;
   color: #fff;
 }
 
-.xuanze .xu .zhong {
+#wodexinxi .xuanze .xu .zhong {
   width: 100%;
   height: 0.5rem;
   line-height: 0.5rem;
 }
 
-.xuanze .xu .yin {
+#wodexinxi .xuanze .xu .yin {
   width: 100%;
   height: 0.4rem;
   line-height: 0.4rem;
   font-size: 4px;
 }
 
-.xuanze .xu.active {
+#wodexinxi .xuanze .xu.active {
   background: url(img/xuanze.png) no-repeat;
   background-size: contain;
   overflow: hidden;
 }
 
-.xuanze .xu.xitong {
+#wodexinxi .xuanze .xu.xitong {
   float: left;
 }
 
-.xuanze .xu.wode {
+#wodexinxi .xuanze .xu.wode {
   float: right;
 }
 
-.mainer {
+#wodexinxi .mainer {
   width: 93%;
   margin: 0 auto;
   height: 7rem;
   border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.mainer .main2 {
+#wodexinxi .mainer .main2 {
   display: none;
 }
 
-.mainer .main {
+#wodexinxi .mainer .main {
   width: 100%;
   height: 6rem;
 }
 
-.mainer .main .lis {
+#wodexinxi .mainer .main .lis {
   width: 100%;
   height: 1rem;
   border-bottom: 1px dashed #444;
 }
 
-.mainer .main .lis .gongneng {
+#wodexinxi .mainer .main .lis .gongneng {
   width: 90%;
   margin: 0 auto;
   height: 0.9rem;
 }
 
-.mainer .main .lis .gongneng .quan {
+#wodexinxi .mainer .main .lis .gongneng .quan {
   float: left;
   width: 0.6rem;
   height: 0.9rem;
 }
 
-.mainer .main .lis .gongneng .quan .tuan1 {
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan1 {
   width: 0.4rem;
   height: 0.4rem;
   margin: 0.25rem 0.1rem;
   border-radius: 50%;
 }
 
-.mainer .main .lis .gongneng .quan .tuan1 .icon {
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan1 .icon {
   width: 0.4rem;
   height: 0.4rem;
   background: url(img/touxiang.png) no-repeat;
@@ -210,7 +210,7 @@ img {
   overflow: hidden;
 }
 
-.mainer .main .lis .gongneng .quan .tuan2 {
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan2 {
   width: 0.4rem;
   height: 0.4rem;
   margin: 0.25rem 0.1rem;
@@ -218,7 +218,7 @@ img {
   background: #00C2FE;
 }
 
-.mainer .main .lis .gongneng .quan .tuan2 .icon {
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan2 .icon {
   width: 0.4rem;
   height: 0.4rem;
   background: url(img/touxiang.png) no-repeat;
@@ -226,7 +226,7 @@ img {
   overflow: hidden;
 }
 
-.mainer .main .lis .gongneng .quan .tuan3 {
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan3 {
   width: 0.4rem;
   height: 0.4rem;
   margin: 0.25rem 0.1rem;
@@ -234,7 +234,7 @@ img {
   background: #00EBCB;
 }
 
-.mainer .main .lis .gongneng .quan .tuan3 .icon {
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan3 .icon {
   width: 0.4rem;
   height: 0.4rem;
   background: url(img/touxiang.png) no-repeat;
@@ -242,7 +242,7 @@ img {
   overflow: hidden;
 }
 
-.mainer .main .lis .gongneng .quan .tuan4 {
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan4 {
   width: 0.4rem;
   height: 0.4rem;
   margin: 0.25rem 0.1rem;
@@ -250,7 +250,7 @@ img {
   background: #FFCB3C;
 }
 
-.mainer .main .lis .gongneng .quan .tuan4 .icon {
+#wodexinxi .mainer .main .lis .gongneng .quan .tuan4 .icon {
   width: 0.4rem;
   height: 0.4rem;
   background: url(img/touxiang.png) no-repeat;
@@ -258,20 +258,20 @@ img {
   overflow: hidden;
 }
 
-.mainer .main .lis .gongneng .wenzi {
+#wodexinxi .mainer .main .lis .gongneng .wenzi {
   width: 70%;
   height: 0.9rem;
   float: left;
 }
 
-.mainer .main .lis .gongneng .wenzi .zhongwen {
+#wodexinxi .mainer .main .lis .gongneng .wenzi .zhongwen {
   height: 0.5rem;
   width: 100%;
   text-align: left;
   line-height: 0.5rem;
 }
 
-.mainer .main .lis .gongneng .wenzi .yinwen {
+#wodexinxi .mainer .main .lis .gongneng .wenzi .yinwen {
   height: 0.2rem;
   width: 100%;
   text-align: left;
@@ -279,7 +279,7 @@ img {
   font-size: 4px;
 }
 
-.mainer .main .lis .gongneng .wenzi .xiangxi {
+#wodexinxi .mainer .main .lis .gongneng .wenzi .xiangxi {
   height: 0.2rem;
   width: 100%;
   text-align: left;
@@ -287,14 +287,14 @@ img {
   font-size: 2px;
 }
 
-.mainer .main .lis .gongneng .xiangxia {
+#wodexinxi .mainer .main .lis .gongneng .xiangxia {
   width: 1.1rem;
   height: 0.9rem;
   float: right;
   text-align: right;
 }
 
-.mainer .main .lis .gongneng .xiangxia .jiantou {
+#wodexinxi .mainer .main .lis .gongneng .xiangxia .jiantou {
   width: 0.5rem;
   height: 0.5rem;
   margin: 0.2rem 0;
@@ -302,7 +302,7 @@ img {
   color: deepskyblue;
 }
 
-.mainer .main .lis .gongneng .xiangxia .shijian {
+#wodexinxi .mainer .main .lis .gongneng .xiangxia .shijian {
   width: 0.5rem;
   height: 0.5rem;
   margin: 0.2rem auto;
