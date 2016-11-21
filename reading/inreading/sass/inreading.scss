@@ -36,12 +36,17 @@ img{
     overflow: hidden;
     background: #FFE7A7;
 //  padding: 0 0.26rem;
-    #header-eight{
-    width: 100%;
-    height: 1rem;
-    display: block;
-    background:#0000FF; 
-//  margin: 0 -0.26rem;  
+    .header-eight{
+        position: absolute;
+        left: 0;
+        top: -1rem;
+        width: 100%;
+        height: 1rem;
+    //  height: 0;
+        display: block;
+        background:#0000FF; 
+    //  margin: 0 -0.26rem;  
+        z-index: 999;
     .headerLeft{
         position: absolute;
         top: 0;
@@ -83,6 +88,16 @@ img{
         background-size: cover;
         overflow: hidden;
     } 
+}
+.head-act{
+    transition: all 0.6s linear;
+      transform-origin: center top;
+    top: 0;
+}
+.head-act2{
+    transition: all 0.6s linear;
+     transform-origin: center top;
+    top: -1rem;
 }
     .litel{
         height: 0.28rem;
@@ -128,6 +143,7 @@ img{
         bottom: 0;
         width: 100%;
         padding: 0.32rem;
+        background: #FFE7A7;
         span{
             font-size: 0.24rem;
             color: #363028;
@@ -147,9 +163,10 @@ img{
         bottom: 0;
         left: 0;
         transform-origin: center bottom;
-        height: 2.25rem;
+//      height: 2.25rem;
         width: 100%;
-//      height: 0;
+        height: 0;
+//display: none;
         overflow: hidden;
         background: #151C2B;
         .pull-page{
@@ -236,6 +253,7 @@ img{
         position:fixed;
         left: 0;
         bottom: -3.2rem;
+//      bottom: 0;
         width: 100%;
         height: 2.78rem;
         background: #151C2B;
@@ -311,7 +329,7 @@ img{
                 margin-left: 0.18rem;
             }
             $color:("blue":#04ACF6,"green":#56D75E,"yellow":#EFCB41,"brown":#A57D59,"pink":#FF2369,"orange":#FD7830,"purple":#CB7AD7);
-                @each $i in map_keys($color) { 
+                @each $i in map_keys($color){ 
                       $l:map_get($color,$i);                
                       .color-eve.#{$i}{
                         background-color: nth($l,1);
