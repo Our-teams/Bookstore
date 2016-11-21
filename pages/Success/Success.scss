@@ -98,6 +98,7 @@ $imgpath:"../img";
         padding-left: 0.2rem;
         padding-top: 0.1rem;
         color: #999;
+        
         #wenben{
             width: 95%;
             height: 95%;
@@ -110,18 +111,81 @@ $imgpath:"../img";
         }
     }
     
+    .fabu-btn{
+        width: 3.2rem;
+        height: 1rem;
+        margin: 0 auto;
+        margin-top: 3rem;
+        background: url(../../img/25.png) no-repeat;
+        background-size:100% auto ;
+        text-align: center;
+        line-height: 0.8rem;
+        a{
+            color: #fff;
+        }
+        font-size: 0.32rem;
+        
+    }
+    
     .jianpan{
         width: 100%;
         height: 4.3rem;
-        position: absolute;
-        left: 0;
-        bottom: 0;
         background: url(../../img/16.png) no-repeat;
         background-size:100% auto ;
         position: fixed;
         left: 0;
-        bottom: 0;
+        bottom: -4.5rem;
+        opacity: 1;
+        animation: all 0.5s ease-in-out;
     }
+    .jp-active{
+        bottom: 0;
+        opacity: 1;     
+    }
+    .heizz{
+       position: fixed;
+       left: 0;
+       top: 0;
+       width: 100%;
+       height: 100%;
+       background: #000;
+       opacity: 0.3;
+       display: none;
+       
+    }
+    .heizz-active{
+        display: block;
+    }
+    .success{
+        position: relative;
+        @include center;
+        background: url(../../img/success.jpg) no-repeat;
+        background-size:100% auto ;
+        width: 70%;
+        height: auto;
+        position: fixed;
+        left: 0rem ;
+        top: 4rem;
+        display: none;
+        #tijiao{
+            position: absolute;
+            left: 1.05rem;
+            top: 2.45rem;
+            color: #28DD8B;
+        }
+        #quxiao{
+            position: absolute;
+            right: 1.1rem;
+            top: 2.45rem;
+            color: #fff;
+        }
+        
+    }
+    .success-active{
+        display: block;
+    }
+   
+   
     
     
     
