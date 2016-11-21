@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html {
   font-size: 100px;
 }
@@ -54,18 +53,17 @@ img {
   border: 0;
 }
 
-/*垂直居中vertical*/
-/*水平居中level*/
-/*全居中center*/
-/*蓝色：$maincolor*/
-#header-nine {
+/*vertical*/
+/*level*/
+/*center*/
+#choiceness #header-nine {
   width: 100%;
   height: 1rem;
   display: block;
   background: #29a6dc;
 }
 
-#header-nine .navigation {
+#choiceness #header-nine .navigation {
   width: 5.7rem;
   height: 0.8rem;
   position: absolute;
@@ -80,7 +78,7 @@ img {
   background-size: cover;
 }
 
-#header-nine .navigation .topLeft {
+#choiceness #header-nine .navigation .topLeft {
   float: left;
   margin: 0.04rem 0.12rem;
   width: 1.65rem;
@@ -92,7 +90,7 @@ img {
   font-size: 0.1rem;
 }
 
-#header-nine .navigation .topLeft .ch {
+#choiceness #header-nine .navigation .topLeft .ch {
   font-size: 0.25rem;
   color: #FFFFFF;
   position: absolute;
@@ -108,7 +106,7 @@ img {
   letter-spacing: 0.03rem;
 }
 
-#header-nine .navigation .topLeft .en {
+#choiceness #header-nine .navigation .topLeft .en {
   color: #91c8e4;
   position: absolute;
   left: 0;
@@ -123,7 +121,7 @@ img {
   font-size: 0.1rem;
 }
 
-#header-nine .navigation .topCenter {
+#choiceness #header-nine .navigation .topCenter {
   float: left;
   margin: 0.04rem 0.12rem;
   width: 1.65rem;
@@ -133,7 +131,7 @@ img {
   overflow: hidden;
 }
 
-#header-nine .navigation .topCenter .ch {
+#choiceness #header-nine .navigation .topCenter .ch {
   font-size: 0.25rem;
   color: #FFFFFF;
   position: absolute;
@@ -149,7 +147,7 @@ img {
   letter-spacing: 0.03rem;
 }
 
-#header-nine .navigation .topCenter .en {
+#choiceness #header-nine .navigation .topCenter .en {
   color: #91c8e4;
   position: absolute;
   left: 0;
@@ -164,7 +162,7 @@ img {
   font-size: 0.1rem;
 }
 
-#header-nine .navigation .topRight {
+#choiceness #header-nine .navigation .topRight {
   float: left;
   margin: 0.04rem 0.12rem;
   width: 1.65rem;
@@ -174,7 +172,7 @@ img {
   overflow: hidden;
 }
 
-#header-nine .navigation .topRight .ch {
+#choiceness #header-nine .navigation .topRight .ch {
   font-size: 0.25rem;
   color: #FFFFFF;
   position: absolute;
@@ -190,7 +188,7 @@ img {
   letter-spacing: 0.03rem;
 }
 
-#header-nine .navigation .topRight .en {
+#choiceness #header-nine .navigation .topRight .en {
   color: #91c8e4;
   position: absolute;
   left: 0;
@@ -205,7 +203,7 @@ img {
   font-size: 0.1rem;
 }
 
-#header-nine .headerRight {
+#choiceness #header-nine .headerRight {
   position: absolute;
   position: absolute;
   top: 0;
@@ -220,13 +218,13 @@ img {
   overflow: hidden;
 }
 
-#center {
+#choiceness #center {
   width: 100%;
   height: auto;
   display: block;
 }
 
-#center .banner {
+#choiceness #center .banner {
   width: 100%;
   height: 4.8rem;
   background: url(img/sc1.png);
@@ -234,7 +232,7 @@ img {
   background-repeat: no-repeat;
 }
 
-#center .banner .banCh {
+#choiceness #center .banner .banCh {
   position: absolute;
   left: 0.8rem;
   top: 0.8rem;
@@ -247,7 +245,7 @@ img {
   font-weight: bold;
 }
 
-#center .banner .hen {
+#choiceness #center .banner .hen {
   position: absolute;
   top: 1.4rem;
   left: 0.8rem;
@@ -257,7 +255,7 @@ img {
   z-index: 2;
 }
 
-#center .banner .banEn {
+#choiceness #center .banner .banEn {
   position: absolute;
   left: 0.8rem;
   top: 1.4rem;
@@ -270,25 +268,25 @@ img {
   text-transform: uppercase;
 }
 
-#center .banner .banEn h3 {
+#choiceness #center .banner .banEn h3 {
   color: #787b87;
   font-weight: 400;
   float: left;
 }
 
-#center .banner .banEn p {
+#choiceness #center .banner .banEn p {
   float: left;
   color: #9599a7;
   padding-left: 0.08rem;
 }
 
-#center .circle {
+#choiceness #center .circle {
   width: 100%;
   height: 0.3rem;
   display: block;
 }
 
-#center .circle ul {
+#choiceness #center .circle ul {
   width: 1.25rem;
   height: 0.15rem;
   position: absolute;
@@ -298,7 +296,7 @@ img {
   bottom: 0;
 }
 
-#center .circle ul li {
+#choiceness #center .circle ul li {
   margin-left: 0.2rem;
   width: 0.15rem;
   height: 0.15rem;
@@ -307,17 +305,17 @@ img {
   float: left;
 }
 
-#center .circle ul .index {
+#choiceness #center .circle ul .index {
   background: #0090ff;
 }
 
-#center .new {
+#choiceness #center .new {
   width: 100%;
   height: 0.55rem;
   display: block;
 }
 
-#center .new .icon {
+#choiceness #center .new .icon {
   position: absolute;
   left: 0.35rem;
   top: 0;
@@ -328,7 +326,7 @@ img {
   background-repeat: no-repeat;
 }
 
-#center .new .newCh {
+#choiceness #center .new .newCh {
   position: absolute;
   left: 0.85rem;
   top: 0;
@@ -342,7 +340,7 @@ img {
   font-weight: bold;
 }
 
-#center .new .newEn {
+#choiceness #center .new .newEn {
   position: absolute;
   left: 0.85rem;
   bottom: 0;
@@ -356,19 +354,19 @@ img {
   text-transform: uppercase;
 }
 
-#center .book {
+#choiceness #center .book {
   width: 100%;
   height: auto;
   display: block;
 }
 
-#center .book li {
+#choiceness #center .book li {
   width: 33.3%;
   height: 3.75rem;
   float: left;
 }
 
-#center .book li .img {
+#choiceness #center .book li .img {
   width: 1.79rem;
   height: 2.55rem;
   background: url(img/sc2.png);
@@ -381,7 +379,7 @@ img {
   top: 0.35rem;
 }
 
-#center .book li .bookName {
+#choiceness #center .book li .bookName {
   height: 0.85rem;
   width: 1.79rem;
   position: absolute;
@@ -391,7 +389,7 @@ img {
   bottom: 0;
 }
 
-#center .book li .bookName .name {
+#choiceness #center .book li .bookName .name {
   padding-top: 0.05rem;
   font-size: 0.25rem;
   line-height: 0.28rem;
@@ -402,7 +400,7 @@ img {
   text-align: left;
 }
 
-#center .book li .bookName .author {
+#choiceness #center .book li .bookName .author {
   font-size: 0.2rem;
   line-height: 0.25rem;
   width: 100%;
@@ -411,7 +409,7 @@ img {
   float: left;
 }
 
-#footer-two {
+#choiceness #footer-two {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -421,7 +419,7 @@ img {
   background: #151c2b;
 }
 
-#footer-two .bookrack {
+#choiceness #footer-two .bookrack {
   width: 33.3%;
   height: 100%;
   background: url(img/f12.png);
@@ -431,7 +429,7 @@ img {
   border-right: 1px solid #717171;
 }
 
-#footer-two .bookrack span {
+#choiceness #footer-two .bookrack span {
   position: absolute;
   left: 0;
   right: 0;
@@ -445,7 +443,7 @@ img {
   color: #fff;
 }
 
-#footer-two .bookCity {
+#choiceness #footer-two .bookCity {
   width: 33.3%;
   height: 100%;
   background: url(img/f1.png);
@@ -454,7 +452,7 @@ img {
   display: block;
 }
 
-#footer-two .bookCity span {
+#choiceness #footer-two .bookCity span {
   position: absolute;
   left: 0;
   right: 0;
@@ -468,7 +466,7 @@ img {
   color: #646567;
 }
 
-#footer-two .personage {
+#choiceness #footer-two .personage {
   width: 33.3%;
   height: 100%;
   background: url(img/f3.png);
@@ -478,7 +476,7 @@ img {
   display: block;
 }
 
-#footer-two .personage span {
+#choiceness #footer-two .personage span {
   position: absolute;
   left: 0;
   right: 0;

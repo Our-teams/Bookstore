@@ -2,7 +2,8 @@ app.controller("catalogueCtrl",["$scope",function($scope){
 
 }])
 $(document).ready(function(){
-$(".navigation").find(".nav-choose").on("click",function(){
+	console.log($(".navigation"))
+	$(".navigation").find(".nav-choose").on("click",function(){
 		$(".navigation").find(".nav-choose").css({"background":"none","background-size":"cover"});
 		$(this).css({"background":"url(img/x1.png)","background-size":"cover"});
 		var index=$(this).index();

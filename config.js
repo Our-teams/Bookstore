@@ -77,6 +77,15 @@ app.config([
 		}).when('/xuanxiang',{
 			templateUrl:'reading/xuanxiang/xuanxiang.html',
 			controller:'xuanxiangCtrl'
+		}).when('/choiceness',{
+			templateUrl:'bookCity/choiceness/choiceness.html',
+			controller:'choicenessCtrl'
+		}).when('/classify',{
+			templateUrl:'bookCity/classify/classify.html',
+			controller:'classifyCtrl'
+		}).when('/list',{
+			templateUrl:'bookCity/list/list.html',
+			controller:'listCtrl'
 		})
 	}
 ])
