@@ -117,21 +117,6 @@ img {
   text-align: center;
 }
 
-#pianhaoxuanze .header #header-four .headerRight {
-  position: absolute;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  right: 0.4rem;
-  width: 0.5rem;
-  height: 0.5rem;
-  border-radius: 50%;
-  background: url(img/xinxi.png);
-  background-size: cover;
-  overflow: hidden;
-}
-
 #pianhaoxuanze .mainer {
   width: 93%;
   margin: 0 auto;
@@ -155,8 +140,12 @@ img {
   text-align: center;
   line-height: 0.8rem;
   border: 1px solid #444;
-  border-radius: 40% 40%;
+  border-radius: 0.5rem 0.5rem;
   font-size: 12px;
+}
+
+#pianhaoxuanze .mainer .main .lis div.blue {
+  background: deepskyblue;
 }
 
 #pianhaoxuanze .mainer .main .lis .lei {

@@ -9,7 +9,27 @@
   overflow-y: auto;
   overflow-x: hidden;
 }
+#header-seven {
+  width: 100%;
+  height: 1rem;
+  display: block;
+  background: #29a6dc;
+}
 
+#header-seven .headerLeft {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0.2rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: url(img/left.png);
+  background-size: cover;
+  overflow: hidden;
+}
 .shuping {
   margin-top: 0.28rem;
   width: 100%;
@@ -141,6 +161,9 @@
 
 .look-all2 {
   margin-top: 0.2rem;
+}
+.look-all a{
+	color: #fff;
 }
 
 #shup2 b {

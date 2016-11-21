@@ -36,6 +36,8 @@
   color: #fff;
   line-height: 1rem;
   display: block;
+  width: 1.5rem;
+  margin: 0 auto;
 }
 
 .new-shuping {
@@ -164,4 +166,9 @@
   margin: auto;
   background: url(../../img/889.png) no-repeat;
   background-size: 100% auto;
+}
+.ct-btn a{
+	display: block;
+	width: 100%;
+	height: 100%;
 }

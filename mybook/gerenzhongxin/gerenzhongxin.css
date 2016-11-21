@@ -58,6 +58,10 @@ img {
 /*水平居中level*/
 /*全居中center*/
 /*蓝色：$maincolor*/
+a {
+  color: #666;
+}
+
 #gerenzhongxin .zhe {
   display: none;
   position: absolute;
@@ -75,6 +79,7 @@ img {
   width: 4.8rem;
   height: 3.5rem;
   margin: 3.87rem auto;
+  border-radius: 8px 8px;
   background: #fff;
 }
 
@@ -237,7 +242,7 @@ img {
 #gerenzhongxin .touxiang .tupian {
   width: 2rem;
   height: 2rem;
-  margin: 0.5rem 2.7rem 0.25rem;
+  margin: 0.4rem auto;
   position: relative;
   border-radius: 50%;
   background: #EEEDEB;
@@ -292,6 +297,7 @@ img {
   width: 100%;
   height: 100%;
   border: 0;
+  background: #F2F2F2;
 }
 
 #gerenzhongxin .touxiang .qianmin .xiu {
@@ -311,7 +317,9 @@ img {
   width: 93%;
   margin: 0 auto;
   height: 3.6rem;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: #666 0px 0px 10px;
+  -moz-box-shadow: #666 0px 0px 10px;
+  box-shadow: #666 0px 0px 10px;
 }
 
 #gerenzhongxin .mainer .main {
