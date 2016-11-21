@@ -1,9 +1,9 @@
 <div myreading>
-	<div id="reading">
+	<div id="reading" style="background: {{lists[cu].theme}}">
 		<div class="header-eight">
 			<a class="headerLeft" href="#/Hotsearch"></a>
 			<a class="label" href="#"></a>
-			<a class="headerRight" href="#"></a>
+			<a class="headerRight" href="#/Fashiondesign2"></a>
 		</div>
 		<div class="litel">
 			<div class="line-lit"></div>
@@ -44,23 +44,23 @@
 			<ul class="set">
 				<li class="nav">
 					<a href="#/catalogue">
-					<div class="set-cir">
-						<img src="img/inreadingImg/set1.png" alt="" />
-					</div>
-					<div class="set-con">目录</div>
+						<div class="set-cir">
+							<img src="img/inreadingImg/set1.png" alt="" />
+						</div>
+						<div class="set-con">目录</div>
 					</a>
 				</li>
 				<li class="nav">
 					<div class="set-cir">
 						<img src="img/inreadingImg/set2.png" alt="" />
 					</div>
-					<div class="set-con">设置</div>
+					<div class="set-con shezhi">设置</div>
 				</li>
 				<li class="nav">
 					<div class="set-cir">
 						<img src="img/inreadingImg/set3.png" alt="" />
 					</div>
-					<div class="set-con">亮度</div>
+					<div class="set-con liang">亮度</div>
 				</li>
 			</ul>
 		</div>
@@ -98,13 +98,13 @@
 			</ul>
 			<ul class="wall">
 				<li class="wall-lis">背景</li>
-				<li class="color-eve"></li>
-				<li class="color-eve"></li>
+				<li class="color-eve" ng-repeat="i in color" ng-click="lists[cu].theme=i;save2local()" style="background: {{i}};">
+				<!--<li class="color-eve"></li>
 				<li class="color-eve blue"></li>
 				<li class="color-eve"></li>
 				<li class="color-eve"></li>
 				<li class="color-eve"></li>
-				<li class="color-eve"></li>
+				<li class="color-eve"></li>-->
 			</ul>
 		</div>
 		<!--调整屏幕亮度-->

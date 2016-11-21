@@ -67,7 +67,15 @@ img {
 #chu #ding img {
   width: 100%;
 }
-
+#chu #ding .back{
+	display: block;
+	position: absolute;
+	left: 0.28rem;
+	top: 0.34rem;
+	width: 0.46rem;
+	height: 0.46rem;
+	
+}
 #chu #kuang {
   width: 100%;
   height: 1rem;

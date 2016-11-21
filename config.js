@@ -2,7 +2,8 @@ app.config([
 	'$routeProvider',
 	function($routeProvider){
 		$routeProvider.when('/',{
-			
+			templateUrl:'enter/denglu/denglu.html',
+			controller:'yijianfanhuiCtrl'
 		}).when('/reading',{
 			templateUrl:'pages/reading/reading.html',
 			controller:'readCtrl'
@@ -86,9 +87,6 @@ app.config([
 		}).when('/list',{
 			templateUrl:'bookCity/list/list.html',
 			controller:'listCtrl'
-		}).when('/denglu',{
-			templateUrl:'enter/denglu/denglu.html',
-			controller:'yijianfanhuiCtrl'
 		}).when('/zhuce',{
 			templateUrl:'enter/zhuce/zhuce.html',
 			controller:'zhuceCtrl'

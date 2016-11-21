@@ -68,7 +68,15 @@ img {
 #zhaohui #ding img {
   width: 100%;
 }
-
+#zhaohui #ding .back{
+	display: block;
+	position: absolute;
+	left: 0.28rem;
+	top: 0.44rem;
+	width: 0.46rem;
+	height: 0.46rem;
+	
+}
 #zhaohui #zikuan {
   width: 100%;
   height: 0.8rem;
@@ -188,4 +196,14 @@ img {
   width: 100%;
   height: 0.7rem;
   background-size: 75% auto;
+}
+.di .next{
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	width: 5.64rem;
+	 height: 0.7rem;
 }

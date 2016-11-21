@@ -11,3 +11,20 @@ $(document).ready(function(){
 		
 	});
 })
+app.directive("mycata",[function(){
+	return{
+		restrict:"A",
+		replace:true,
+		template: '<div class="catalogue"><ul ng-transclude></></div>',
+		transclude:true,
+		link:function($scope,el){
+			$(el).find(".nav-choose").on("click",function(){
+//				$(el).find(".nav-choose").css("background","rgba(0,0,0,0")
+//				$(this).css("background","../../img/x1.png")
+				var index=$(this).index()
+				console.log(index)
+				$(el).find(".choose").css("opacity","0").eq(index).css("opacity","1")
+			})
+		}
+	}
+}])

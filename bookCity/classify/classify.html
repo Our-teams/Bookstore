@@ -1,24 +1,25 @@
 <div>
 		<div id="header-nine">
 			<div class="navigation">
-				<a href="#" class="topLeft">
+				<a href="#/choiceness" class="topLeft">
 					<span class="ch">精选</span>
 					<span class="en">SELECTED</span>
 				</a>
-				<a href="#" class="topCenter">
+				<a href="#/classify" class="topCenter">
 					<span class="ch">榜单</span>
 					<span class="en">LIST</span>
 				</a>
-				<a href="#" class="topRight">
+				<a href="#/list" class="topRight">
 					<span class="ch">分类</span>
 					<span class="en">CLASSIFY</span>
 				</a>				
 			</div>
-			<a class="headerRight" href="#"></a>
+			<a class="headerRight" href="#/Hotsearch"></a>
 		</div>
 		
 		<ul id="Top">
 			<li ng-repeat="v in lists">
+				<a href="#/reading">
 				<div class="li-left">
 					<span class="one">{{v.name}}·阅读榜单</span>
 					<span class="two">New book reading list</span>
@@ -35,6 +36,7 @@
 					<div class="topThree"></div>
 					<span class="top-three">月童度河【精装】</span>
 				</div>
+				</a>
 			</li>
 			
 		</ul>

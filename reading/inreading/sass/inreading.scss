@@ -337,7 +337,16 @@ img{
                 }  
         }
     }
-    
+    .font-act{
+          transition: all 0.6s linear;
+        transform-origin: center bottom;
+        bottom: 0;
+    }
+    .font-act2{
+          transition: all 0.6s linear;
+        transform-origin: center bottom;
+        bottom: -0.32rem;
+    }
     .fontSet-act{
         transition: all 0.6s linear;
         transform-origin: center bottom;
@@ -457,7 +466,7 @@ img{
     }
     .ftstact2{
         transition: all 0.6s linear;
-        bottom: -3.1rem;
+        bottom: -2.2rem;
     }
     .out-by{
         position: fixed;
