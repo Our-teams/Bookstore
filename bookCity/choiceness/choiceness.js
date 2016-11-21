@@ -1,5 +1,5 @@
-app=angular.module("test",[]);
-app.controller("choiceness",["$scope",function($scope){
+
+app.controller("choicenessCtrl",["$scope",function($scope){
 	$scope.books=[
 	{},
 	{},
@@ -8,7 +8,6 @@ app.controller("choiceness",["$scope",function($scope){
 	{},
 	{}
 	]
-	
 	
 	
 	

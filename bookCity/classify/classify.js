@@ -1,5 +1,5 @@
-app=angular.module("test",[]);
-app.controller("classify",["$scope",function($scope){
+
+app.controller("classifyCtrl",["$scope",function($scope){
 	$scope.lists=[
 	{name:"新书"},
 	{name:"热门"},
