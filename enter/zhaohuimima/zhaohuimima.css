@@ -53,6 +53,9 @@ img {
   border: 0;
 }
 
+/*vertical*/
+/*level*/
+/*center*/
 #zhaohui {
   position: fixed;
   left: 0;
@@ -62,117 +65,127 @@ img {
   background: #f2f2f2;
 }
 
-#ding img {
+#zhaohui #ding img {
   width: 100%;
 }
 
-#zikuan {
+#zhaohui #zikuan {
   width: 100%;
-  height: 1rem;
+  height: 0.8rem;
   text-align: center;
-  line-height: 1rem;
-  font-size: 24px;
-  margin-top: 2.5rem;
+  line-height: 0.8rem;
+  font-size: 16px;
+  margin-top: 1rem;
 }
 
-#zikuan span {
+#zhaohui #zikuan span {
   color: #344082;
+  left: 0.1rem;
 }
 
-.zikuang {
+#zhaohui .zikuang {
   width: 100%;
-  height: 1rem;
-  font-size: 24px;
-  line-height: 1rem;
+  height: 0.8rem;
+  font-size: 18px;
+  line-height: 0.8rem;
 }
 
-.zikuang span {
+#zhaohui .zikuang span {
   color: #344082;
   margin-left: 75%;
 }
 
-#kuang {
+#zhaohui #kuang {
   width: 100%;
-  height: 1.88rem;
-  margin-top: 2.1rem;
+  height: 1rem;
+  margin-top: 0.6rem;
   position: relative;
-  background: url(../images/9.png) no-repeat center;
+  background: url(images/9.png) no-repeat center;
+  background-size: 90% auto;
 }
 
-#kuang input {
+#zhaohui #kuang input {
   position: absolute;
-  left: 290px;
-  top: 30px;
-  font-size: 30px;
+  left: 1.5rem;
+  top: 0.2rem;
+  font-size: 24px;
   border: 0;
 }
 
-.pass {
+#zhaohui .pass {
   width: 100%;
-  height: 1.88rem;
-  margin-top: 0.5rem;
+  height: 1rem;
+  margin-top: 0.35rem;
   position: relative;
-  background: url(../images/2.png) no-repeat center;
+  background: url(images/2.png) no-repeat center;
+  background-size: 90% auto;
 }
 
-.pass input {
+#zhaohui .pass input {
   position: absolute;
-  left: 290px;
-  top: 30px;
-  font-size: 30px;
+  left: 1.5rem;
+  top: 0.2rem;
+  font-size: 24px;
   border: 0;
 }
 
-#yanzhengma {
-  margin-top: 0.85rem;
-  margin-left: 3.4rem;
+#zhaohui #yanzhengma {
+  margin-top: 0.55rem;
+  margin-left: 0.48rem;
   position: relative;
 }
 
-#passs {
+#zhaohui #yanzhengma img {
+  width: 50%;
+}
+
+#zhaohui #passs {
   width: 208px;
-  height: 90px;
-  margin-top: -93px;
-  margin-left: 585px;
+  height: 87px;
+  margin-top: -65px;
+  margin-left: 4.2rem;
   position: relative;
-  background: url(../images/12.png);
+  background: url(images/12.png) no-repeat center;
+  background-size: 55% auto;
 }
 
-#passs input {
+#zhaohui #passs input {
   position: absolute;
-  left: 20px;
+  left: 1rem;
   top: 30px;
-  font-size: 20px;
+  font-size: 15px;
   border: 0;
   background: none;
+  width: 1.7rem;
 }
 
-#find {
+#zhaohui #find {
   width: 100%;
   height: 0.5rem;
   line-height: 0.5rem;
-  margin-top: 0.8rem;
+  margin-top: -0.2rem;
 }
 
-#find .find {
-  width: 10rem;
+#zhaohui #find .find {
+  width: 5.2rem;
   margin: 0 auto;
   height: 100%;
   color: #666666;
-  font-size: 18px;
+  font-size: 16px;
 }
 
-#find .find img {
+#zhaohui #find .find img {
   vertical-align: middle;
 }
 
-#find .find .right {
+#zhaohui #find .find .right {
   float: right;
 }
 
-.di {
-  margin-top: 0.9rem;
-  background: url(../images/5.png) no-repeat center;
+#zhaohui .di {
+  margin-top: 0.5rem;
+  background: url(images/5.png) no-repeat center;
   width: 100%;
-  height: 3rem;
+  height: 0.7rem;
+  background-size: 75% auto;
 }

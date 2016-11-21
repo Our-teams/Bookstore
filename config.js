@@ -86,6 +86,18 @@ app.config([
 		}).when('/list',{
 			templateUrl:'bookCity/list/list.html',
 			controller:'listCtrl'
+		}).when('/denglu',{
+			templateUrl:'enter/denglu/denglu.html',
+			controller:'yijianfanhuiCtrl'
+		}).when('/zhuce',{
+			templateUrl:'enter/zhuce/zhuce.html',
+			controller:'zhuceCtrl'
+		}).when('/xiugaimima',{
+			templateUrl:'enter/xiugaimima/xiugaimima.html',
+			controller:'xiugaiCtrl'
+		}).when('/zhaohuimima',{
+			templateUrl:'enter/zhaohuimima/zhaohuimima.html',
+			controller:'zhaohuiCtrl'
 		})
 	}
 ])
