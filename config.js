@@ -3,7 +3,7 @@ app.config([
 	function($routeProvider){
 		$routeProvider.when('/',{
 			templateUrl:'enter/denglu/denglu.html',
-			controller:'yijianfanhuiCtrl'
+			controller:'dengluCtrl'
 		}).when('/reading',{
 			templateUrl:'pages/reading/reading.html',
 			controller:'readCtrl'
@@ -62,7 +62,7 @@ app.config([
 			controller:'banbenxinxiCtrl'
 		}).when('/mybookshelf',{
 			templateUrl:'bookcase/mybookshelf/bookshelf.html',
-			controller:'mybookshelfCtrl'
+			controller:'bookshelfCtrl'
 		}).when('/Hotsearch',{
 			templateUrl:'bookcase/Hotsearch/search.html',
 			controller:'HotsearchCtrl'
