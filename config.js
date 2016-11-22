@@ -3,7 +3,7 @@ app.config([
 	function($routeProvider){
 		$routeProvider.when('/',{
 			templateUrl:'enter/denglu/denglu.html',
-			controller:'yijianfanhuiCtrl'
+			controller:'dengluCtrl'
 		}).when('/reading',{
 			templateUrl:'pages/reading/reading.html',
 			controller:'readCtrl'
