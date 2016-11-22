@@ -363,13 +363,13 @@ img {
   display: block;
 }
 
-#choiceness #center .book li {
+#choiceness #center .book a {
   width: 33.3%;
   height: 3.75rem;
   float: left;
 }
 
-#choiceness #center .book li .img {
+#choiceness #center .book a .img {
   width: 1.79rem;
   height: 2.55rem;
   background: url(img/sc2.png);
@@ -382,7 +382,7 @@ img {
   top: 0.35rem;
 }
 
-#choiceness #center .book li .bookName {
+#choiceness #center .book a .bookName {
   height: 0.85rem;
   width: 1.79rem;
   position: absolute;
@@ -392,7 +392,7 @@ img {
   bottom: 0;
 }
 
-#choiceness #center .book li .bookName .name {
+#choiceness #center .book a .bookName .name {
   padding-top: 0.05rem;
   font-size: 0.25rem;
   line-height: 0.28rem;
@@ -403,7 +403,7 @@ img {
   text-align: left;
 }
 
-#choiceness #center .book li .bookName .author {
+#choiceness #center .book a .bookName .author {
   font-size: 0.2rem;
   line-height: 0.25rem;
   width: 100%;
