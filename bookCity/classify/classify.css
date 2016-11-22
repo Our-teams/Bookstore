@@ -224,6 +224,7 @@ img {
   width: 100%;
   height: auto;
   display: block;
+  padding-bottom: 12.5rem;
 }
 
 #classify #Top li {
