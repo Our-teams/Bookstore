@@ -127,6 +127,7 @@ img {
   width: 1.65rem;
   height: 0.7rem;
   border-radius: 0.05rem;
+  background: none;
   background-size: cover;
   overflow: hidden;
 }
@@ -168,6 +169,7 @@ img {
   width: 1.65rem;
   height: 0.7rem;
   border-radius: 0.05rem;
+  background: none;
   background-size: cover;
   overflow: hidden;
 }
@@ -230,6 +232,7 @@ img {
   background: url(img/sc1.png);
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: 0;
 }
 
 #choiceness #center .banner .banCh {
@@ -409,7 +412,7 @@ img {
   float: left;
 }
 
-#choiceness #footer-two {
+#choiceness #footer-one {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -419,40 +422,17 @@ img {
   background: #151c2b;
 }
 
-#choiceness #footer-two .bookrack {
+#choiceness #footer-one .bookrack {
   width: 33.3%;
   height: 100%;
-  background: url(img/f12.png);
+  background: url(img/f2.png);
   background-size: cover;
   display: block;
   float: left;
   border-right: 1px solid #717171;
 }
 
-#choiceness #footer-two .bookrack span {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  bottom: 0;
-  width: 100%;
-  height: 0.4rem;
-  text-align: center;
-  line-height: 0.4rem;
-  font-size: 0.25rem;
-  color: #fff;
-}
-
-#choiceness #footer-two .bookCity {
-  width: 33.3%;
-  height: 100%;
-  background: url(img/f1.png);
-  background-size: cover;
-  float: left;
-  display: block;
-}
-
-#choiceness #footer-two .bookCity span {
+#choiceness #footer-one .bookrack span {
   position: absolute;
   left: 0;
   right: 0;
@@ -466,7 +446,30 @@ img {
   color: #646567;
 }
 
-#choiceness #footer-two .personage {
+#choiceness #footer-one .bookCity {
+  width: 33.3%;
+  height: 100%;
+  background: url(img/f11.png);
+  background-size: cover;
+  float: left;
+  display: block;
+}
+
+#choiceness #footer-one .bookCity span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 100%;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.25rem;
+  color: #fff;
+}
+
+#choiceness #footer-one .personage {
   width: 33.3%;
   height: 100%;
   background: url(img/f3.png);
@@ -476,7 +479,7 @@ img {
   display: block;
 }
 
-#choiceness #footer-two .personage span {
+#choiceness #footer-one .personage span {
   position: absolute;
   left: 0;
   right: 0;

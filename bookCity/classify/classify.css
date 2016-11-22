@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html {
   font-size: 100px;
 }
@@ -54,18 +53,17 @@ img {
   border: 0;
 }
 
-/*垂直居中vertical*/
-/*水平居中level*/
-/*全居中center*/
-/*蓝色：$maincolor*/
-#header-nine {
+/*vertical*/
+/*level*/
+/*center*/
+#classify #header-nine {
   width: 100%;
   height: 1rem;
   display: block;
   background: #29a6dc;
 }
 
-#header-nine .navigation {
+#classify #header-nine .navigation {
   width: 5.7rem;
   height: 0.8rem;
   position: absolute;
@@ -80,18 +78,19 @@ img {
   background-size: cover;
 }
 
-#header-nine .navigation .topLeft {
+#classify #header-nine .navigation .topLeft {
   float: left;
   margin: 0.04rem 0.12rem;
   width: 1.65rem;
   height: 0.7rem;
   border-radius: 0.05rem;
+  background: none;
   background-size: cover;
   overflow: hidden;
   font-size: 0.1rem;
 }
 
-#header-nine .navigation .topLeft .ch {
+#classify #header-nine .navigation .topLeft .ch {
   font-size: 0.25rem;
   color: #FFFFFF;
   position: absolute;
@@ -107,7 +106,7 @@ img {
   letter-spacing: 0.03rem;
 }
 
-#header-nine .navigation .topLeft .en {
+#classify #header-nine .navigation .topLeft .en {
   color: #91c8e4;
   position: absolute;
   left: 0;
@@ -122,7 +121,7 @@ img {
   font-size: 0.1rem;
 }
 
-#header-nine .navigation .topCenter {
+#classify #header-nine .navigation .topCenter {
   float: left;
   margin: 0.04rem 0.12rem;
   width: 1.65rem;
@@ -133,7 +132,7 @@ img {
   overflow: hidden;
 }
 
-#header-nine .navigation .topCenter .ch {
+#classify #header-nine .navigation .topCenter .ch {
   font-size: 0.25rem;
   color: #FFFFFF;
   position: absolute;
@@ -149,7 +148,7 @@ img {
   letter-spacing: 0.03rem;
 }
 
-#header-nine .navigation .topCenter .en {
+#classify #header-nine .navigation .topCenter .en {
   color: #91c8e4;
   position: absolute;
   left: 0;
@@ -164,17 +163,18 @@ img {
   font-size: 0.1rem;
 }
 
-#header-nine .navigation .topRight {
+#classify #header-nine .navigation .topRight {
   float: left;
   margin: 0.04rem 0.12rem;
   width: 1.65rem;
   height: 0.7rem;
   border-radius: 0.05rem;
+  background: none;
   background-size: cover;
   overflow: hidden;
 }
 
-#header-nine .navigation .topRight .ch {
+#classify #header-nine .navigation .topRight .ch {
   font-size: 0.25rem;
   color: #FFFFFF;
   position: absolute;
@@ -190,7 +190,7 @@ img {
   letter-spacing: 0.03rem;
 }
 
-#header-nine .navigation .topRight .en {
+#classify #header-nine .navigation .topRight .en {
   color: #91c8e4;
   position: absolute;
   left: 0;
@@ -205,7 +205,7 @@ img {
   font-size: 0.1rem;
 }
 
-#header-nine .headerRight {
+#classify #header-nine .headerRight {
   position: absolute;
   position: absolute;
   top: 0;
@@ -220,13 +220,13 @@ img {
   overflow: hidden;
 }
 
-#Top {
+#classify #Top {
   width: 100%;
   height: auto;
   display: block;
 }
 
-#Top li {
+#classify #Top li {
   width: 100%;
   height: 2.7rem;
   margin-bottom: 0.2rem;
@@ -236,7 +236,7 @@ img {
   float: left;
 }
 
-#Top li .li-left {
+#classify #Top li .li-left {
   width: 50%;
   height: 100%;
   display: block;
@@ -245,7 +245,7 @@ img {
   background: rgba(0, 0, 0, 0.5);
 }
 
-#Top li .li-left .one {
+#classify #Top li .li-left .one {
   position: absolute;
   left: 0;
   right: 0;
@@ -260,7 +260,7 @@ img {
   font-weight: 400;
 }
 
-#Top li .li-left .two {
+#classify #Top li .li-left .two {
   position: absolute;
   left: 0;
   right: 0;
@@ -275,7 +275,7 @@ img {
   font-weight: 400;
 }
 
-#Top li .li-left .tu {
+#classify #Top li .li-left .tu {
   position: absolute;
   left: 0;
   right: 0;
@@ -288,7 +288,7 @@ img {
   background-repeat: no-repeat;
 }
 
-#Top li .li-left .three {
+#classify #Top li .li-left .three {
   position: absolute;
   left: 0;
   right: 0;
@@ -303,7 +303,7 @@ img {
   font-weight: 400;
 }
 
-#Top li .li-left .four {
+#classify #Top li .li-left .four {
   position: absolute;
   left: 0;
   right: 0;
@@ -318,7 +318,7 @@ img {
   font-weight: 400;
 }
 
-#Top li .li-left .five {
+#classify #Top li .li-left .five {
   position: absolute;
   left: 0;
   right: 0;
@@ -333,7 +333,7 @@ img {
   font-weight: 400;
 }
 
-#Top li .li-right {
+#classify #Top li .li-right {
   width: 50%;
   height: 100%;
   display: block;
@@ -341,7 +341,7 @@ img {
   float: left;
 }
 
-#Top li .li-right .top-one {
+#classify #Top li .li-right .top-one {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -356,7 +356,7 @@ img {
   font-weight: 400;
 }
 
-#Top li .li-right .top-two {
+#classify #Top li .li-right .top-two {
   position: absolute;
   top: 0.7rem;
   left: 1.0rem;
@@ -369,7 +369,7 @@ img {
   font-weight: 400;
 }
 
-#Top li .li-right .top-three {
+#classify #Top li .li-right .top-three {
   position: absolute;
   bottom: 0.7rem;
   left: 1.0rem;
@@ -382,7 +382,7 @@ img {
   font-weight: 400;
 }
 
-#Top li .li-right .topOne {
+#classify #Top li .li-right .topOne {
   background: url(img/t1.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -393,7 +393,7 @@ img {
   top: 1.15rem;
 }
 
-#Top li .li-right .topTwo {
+#classify #Top li .li-right .topTwo {
   background: url(img/t2.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -404,7 +404,7 @@ img {
   top: 0.68rem;
 }
 
-#Top li .li-right .topThree {
+#classify #Top li .li-right .topThree {
   background: url(img/t2.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -415,7 +415,7 @@ img {
   bottom: 0.74rem;
 }
 
-#footer-one {
+#classify #footer-one {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -426,7 +426,7 @@ img {
   z-index: 100;
 }
 
-#footer-one .bookrack {
+#classify #footer-one .bookrack {
   width: 33.3%;
   height: 100%;
   background: url(img/f2.png);
@@ -436,7 +436,7 @@ img {
   border-right: 1px solid #717171;
 }
 
-#footer-one .bookrack span {
+#classify #footer-one .bookrack span {
   position: absolute;
   left: 0;
   right: 0;
@@ -450,7 +450,7 @@ img {
   color: #646567;
 }
 
-#footer-one .bookCity {
+#classify #footer-one .bookCity {
   width: 33.3%;
   height: 100%;
   background: url(img/f11.png);
@@ -459,7 +459,7 @@ img {
   display: block;
 }
 
-#footer-one .bookCity span {
+#classify #footer-one .bookCity span {
   position: absolute;
   left: 0;
   right: 0;
@@ -473,7 +473,7 @@ img {
   color: #fff;
 }
 
-#footer-one .personage {
+#classify #footer-one .personage {
   width: 33.3%;
   height: 100%;
   background: url(img/f3.png);
@@ -483,7 +483,7 @@ img {
   display: block;
 }
 
-#footer-one .personage span {
+#classify #footer-one .personage span {
   position: absolute;
   left: 0;
   right: 0;

@@ -58,6 +58,7 @@
                 height: 0.7rem;
                 border-radius: 0.05rem;
     //          background: url(img/x1.png);
+                background: none;
                 background-size: cover;
                 overflow: hidden;
                 .ch{
@@ -93,6 +94,7 @@
                 height: 0.7rem;
                 border-radius: 0.05rem;
     //          background: url(img/x1.png);
+                background: none;
                 background-size: cover;
                 overflow: hidden;
                 .ch{
@@ -151,6 +153,7 @@
             background: url(img/sc1.png);
             background-size: cover;
             background-repeat: no-repeat;
+            margin-top: 0;
             .banCh{
                 position: absolute;
                 left: 0.8rem;
@@ -317,7 +320,7 @@
     
     
     
-    #footer-two{
+    #footer-one{
         position: fixed;
         left: 0;
         bottom: 0;
@@ -328,7 +331,7 @@
         .bookrack{
             width: 33.3%;
             height: 100%;
-            background: url(img/f12.png);
+            background: url(img/f2.png);
             background-size: cover;
             display: block;
             float: left;
@@ -341,13 +344,13 @@
                 text-align: center;
                 line-height: 0.4rem;
                 font-size: 0.25rem;
-                color: #fff;
+                color: #646567;
             }
         }
         .bookCity{
             width: 33.3%;
             height: 100%;
-            background: url(img/f1.png);
+            background: url(img/f11.png);
             background-size: cover;
             float: left;
             display: block;
@@ -359,7 +362,7 @@
                 text-align: center;
                 line-height: 0.4rem;
                 font-size: 0.25rem;
-                color: #646567;
+                color: #fff;
             }
         }
         .personage{
