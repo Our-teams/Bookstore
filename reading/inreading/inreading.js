@@ -72,40 +72,80 @@ app.directive("myreading",[function(){
 				inNub+=1
 	})
 ////	調節字號大小
-//	$(el).find(".pro-cir").on("touchstart",function(e){
-//		e.preventDefault();
-//		var proF=e.originalEvent.changedTouches[0].clientX;
-//		console.log(proF)
-//		$(el).on("touchmove",function(e){
-//			var progo=e.originalEvent.changedTouches[0].clientX-$(el).find(".pro-cir").offset().left+($(el).find(".pro-cir").outerWidth()/2)
-//				if(progo>=0 && progo<466){
-//					$(el).find(".pro-cir").css("left",progo)
-//				}else{
-//					return
-//				}
-//			})
-//	})
-//$(el).on("touchend", function() {
-//				$(el).off("touchmove")
-//				$(el).off("touchend")
-//			})
-//
-//
-//
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	$(el).find(".pro-cir1").on("touchstart",function(e){
+		e.preventDefault();
+		var proF=e.originalEvent.changedTouches[0].clientX;
+		console.log(proF)
+		$(el).on("touchmove",function(e){
+			var progo=e.originalEvent.changedTouches[0].clientX*2-$(el).find(".pro-cir1").offset().left-($(el).find(".pro-cir1").outerWidth()/2-200)	
+				if(progo>=0 && progo<566){
+					$(el).find(".pro-cir1").css("left",progo);
+//					$(el).find(".pro-cir3").css("left",progo)
+				}else{
+					return
+				}
+			})
+	})
+$(el).on("touchend", function() {
+				$(el).off("touchmove")
+				$(el).off("touchend")
+			})
+$(el).find(".pro-cir3").on("touchstart",function(e){
+		e.preventDefault();
+		var proF=e.originalEvent.changedTouches[0].clientX;
+		console.log(proF)
+		$(el).on("touchmove",function(e){
+			var progo=e.originalEvent.changedTouches[0].clientX*2-$(el).find(".pro-cir3").offset().left-($(el).find(".pro-cir3").outerWidth()/2-200)	
+				if(progo>=0 && progo<466){
+//					$(el).find(".pro-cir1").css("left",progo);
+					$(el).find(".pro-cir3").css("left",progo-10)
+				}else{
+					return
+				}
+			})
+	})
+$(el).on("touchend", function() {
+				$(el).off("touchmove")
+				$(el).off("touchend")
+			})
+//------------------------------?
+$(el).find(".pro-cir5").on("touchstart",function(e){
+		e.preventDefault();
+		var proF=e.originalEvent.changedTouches[0].clientX;
+		console.log(proF)
+		$(el).on("touchmove",function(e){
+			var progo=e.originalEvent.changedTouches[0].clientX*2-$(el).find(".pro-cir5").offset().left-($(el).find(".pro-cir5").outerWidth()/2-200)	
+				if(progo>=0 && progo<566){
+					$(el).find(".pro-cir5").css("left",progo);
+//					$(el).find(".pro-cir3").css("left",progo)
+				}else{
+					return
+				}
+			})
+	})
+$(el).on("touchend", function() {
+				$(el).off("touchmove")
+				$(el).off("touchend")
+			})
+//--------------------------
+$(el).find(".pro-cir6").on("touchstart",function(e){
+		e.preventDefault();
+		var proF=e.originalEvent.changedTouches[0].clientX;
+		console.log(proF)
+		$(el).on("touchmove",function(e){
+			var progo=e.originalEvent.changedTouches[0].clientX*2-$(el).find(".pro-cir6").offset().left-($(el).find(".pro-cir6").outerWidth()/2-200)	
+				if(progo>=0 && progo<566){
+					$(el).find(".pro-cir6").css("left",progo);
+//					$(el).find(".pro-cir3").css("left",progo)
+				}else{
+					return
+				}
+			})
+	})
+$(el).on("touchend", function() {
+				$(el).off("touchmove")
+				$(el).off("touchend")
+			})
 
 
 
@@ -120,8 +160,6 @@ $(el).find(".liang").on("click",function(){
 	$(el).find(".back-op").removeClass("ftstact2").addClass("ftstact")
 })
 //////////////////////////////////拖动///////////////////////////////////////
-
-
 
 
 		}
