@@ -62,7 +62,7 @@ app.config([
 			controller:'banbenxinxiCtrl'
 		}).when('/mybookshelf',{
 			templateUrl:'bookcase/mybookshelf/bookshelf.html',
-			controller:'mybookshelfCtrl'
+			controller:'bookshelfCtrl'
 		}).when('/Hotsearch',{
 			templateUrl:'bookcase/Hotsearch/search.html',
 			controller:'HotsearchCtrl'
