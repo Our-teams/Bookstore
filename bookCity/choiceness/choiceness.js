@@ -1,5 +1,4 @@
-
-app.controller("choicenessCtrl",["$scope",function($scope){
+app.controller('choicenessCtrl',['$scope',function($scope){
 	$scope.books=[
 	{},
 	{},
